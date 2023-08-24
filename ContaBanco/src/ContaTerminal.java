@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-
-        //dados do cliente
+        
         System.out.println("Digite o nome do cliente");
         String nomeCliente = scanner.nextLine();
 
